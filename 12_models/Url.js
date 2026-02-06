@@ -9,10 +9,6 @@ const urlSchema = new mongoose.Schema({
     type: String,
     required: true,
     unique: true
-  },
-  createdAt: {
-    type: Date,
-    default: Date.now
   }
 });
 
